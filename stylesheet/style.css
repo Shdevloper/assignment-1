@@ -41,17 +41,17 @@ body{
     border-radius: 24px;
 }
 .sub-banner{
-  margin-top: 30px;
+  margin-top: 5px;
 }
 .title-banner{
     font-size: 20px;
     color: rgba(14, 14, 14, 0.5);
-    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .pra-1{
-    font-size: 58px;
+    font-size: 45px;
     font-weight: bold;
-    margin: 0 auto;
+    margin-bottom:30px;
     color: rgba(14, 14, 14, 1);
 }
 .btn-2{
@@ -59,15 +59,15 @@ body{
     padding: 15px 35px;
     font-size: 18px;
     color: white;
-    margin-top: 25px;
+    margin-top: 5px;
     border-radius: 8px;
     border: none;
 }
 .main-title{
-    font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 80px;
     margin-bottom: 32x;
+    font-weight: bold;
 }
 .title-details{
     display: flex;
