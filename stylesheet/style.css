@@ -12,8 +12,8 @@ h3{
     
 }
 body{
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: rgba(241, 241, 243, 1);
 }
 .nav-bar{
@@ -32,6 +32,12 @@ body{
     color: rgba(0, 106, 80, 1);
     border-radius:8px;
     border-color: rgba(0, 106, 80, 1);
+    transition: 0.4s ease-in-out;
+}
+.btn-pdg:hover{
+    background-color: rgb(27, 84, 84);
+    color: white;
+    cursor: pointer;
 }
 .banner{
     display: flex;
@@ -62,6 +68,12 @@ body{
     margin-top: 5px;
     border-radius: 8px;
     border: none;
+    transition: 0.4s ease-in-out;
+}
+.btn-2:hover{
+background-color: rgb(27, 84, 84);
+color: white;
+cursor: pointer;
 }
 .main-title{
     font-size: 30px;
@@ -103,6 +115,12 @@ h4{
     color: white;
     border-radius: 8px;
     border: none;
+    transition: 0.4s ease-in-out;
+}
+.btn-3:hover{
+    background-color: rgb(27, 84, 84);
+    color: white;
+    cursor: pointer;
 }
 .element-3{
     background-color:rgba(198, 228, 214, 1);
@@ -117,6 +135,12 @@ h4{
     color: white;
     border-radius: 8px;
     border: none;
+    transition: 0.4s ease-in-out;
+}
+.btn-4:hover{
+    background-color: rgb(27, 84, 84);
+    color: white;
+    cursor: pointer;
 }
 .element-4{
     background-color:rgba(247, 235, 207, 1);
@@ -130,7 +154,210 @@ h4{
     color: white;
     border-radius: 8px;
     border: none;
+    transition: 0.4s ease-in-out;
+}
+.btn-5:hover{
+    background-color: rgb(27, 84, 84);
+    color: white;
+    cursor: pointer;
 }
 .paragraph-m{
     margin-bottom: 32px;
+}
+.main-para{
+    background-color: white;
+    background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 32px;
+}
+h5{
+    font-size: 20px;
+    margin: 0 auto;
+}
+.para-3{
+    margin: 0 auto;
+}
+.main-satelite-header{
+    margin-top: 56px;
+    margin-left: 32px;
+}
+.satelite-main{
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+.satelite-img-1{
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+}
+.satelite-img-1, img{
+    border-radius: 24px;
+}
+.satalite-header{
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+.time-date{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    
+}
+.para-satalite{
+    display: inline-block;
+    margin: 0 auto;
+}
+.satalite-btn{
+    margin-top: 25px;
+    border: none;
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 9px 14px;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.satalite-btn:hover{
+    background-color: rgb(27, 84, 84);
+    color: white;
+    cursor: pointer;
+}
+#main-satelite-header{
+    margin-top: 56px;
+    margin-left: 48px;
+}
+.satelite-img-2{
+    margin-left: 20px;
+    margin-top: 45px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+}
+.subscribe-banner{
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+.main-donate-head {
+    text-align:center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 5px;
+    padding: 30px;
+}
+.donate-header{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.donate-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right:150px;
+ 
+}
+.donate-btn-selection{
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding:30px 20px;
+    border: none;
+    transition: all 0.5s; 
+}
+.donate-btn-selection:hover{
+    background-color:rgba(198, 228, 214, 1);
+    cursor: pointer;
+    
+    
+}
+
+.inp{
+    justify-content:center;
+    margin-bottom: 32px;
+   
+}
+.input-1{
+    width: 850px;
+    height: 50px;
+    margin-top: 32px;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 185px;
+    border: none;
+}
+.input-1,placeholder{
+    color: rgba(14, 14, 14, 0.3);
+}
+.donate-btn-main{
+    text-align: center;
+}
+.donate-submit-btn{
+    text-align: center;
+    margin-top: 25px;
+    border: none;
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 9px 14px;
+    color: white;
+    margin-bottom: 50px;
+    transition: 0.4s ease-in-out;
+    
+}
+.donate-submit-btn:hover{
+    background-color: rgb(27, 84, 84);
+    color: white;
+    cursor: pointer;
+}
+.donate-para{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#banner-input{
+    height: 40px;
+    width: 550px;
+    border: none;
+    border-radius: 7px 0 0 7px;
+}
+.banner-btn{
+    padding: 7px 16px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    border: none;
+    border-radius: 0 7px 7px 0;
+    transition: 0.4s ease-in-out; 
+}
+.banner-btn:hover{
+    background-color: rgb(27, 84, 84);
+    color: white;
+    cursor: pointer;
+}
+#banner-input, ::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    padding-left: 15px;
+}
+.subscribe-btn{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: white;
+    padding: 24px;
+    margin-top: 56px;
+}
+.footer-head{
+    text-align: center;
+    
+}
+.footer-head{
+    font-weight: bold;
+    font-size: 23px;
 }
