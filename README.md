@@ -1,1 +1,1 @@
-Create a simple website.
+Created a simple website.
